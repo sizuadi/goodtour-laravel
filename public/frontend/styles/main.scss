@@ -1,0 +1,415 @@
+body {
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1E55A9;
+
+    a {
+        text-decoration: none !important;
+    }
+}
+
+// Navbar
+.bg-light {
+    background-color: #fff !important;
+}
+
+.navbar-brand {
+    background-color: #fff;
+    margin-top: -20px;
+    padding-top: 20px;
+
+    img {
+        max-height: 100px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #1E55A9;
+            font-weight: 600;
+
+            &.active {
+                color: #1E55A9 !important;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.btn-navbar-right {
+    margin: -10px -18px -10px 50px !important;
+    height: 66px;
+    width: 100px;
+    border-radius: 0px;
+}
+
+.btn-login {
+    background-color: #1E55A9;
+    color: #ffffff;
+    transition: .5s;
+
+    &:hover {
+        background-color: rgb(69, 135, 233);
+        color: #ffffff;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .bg-light {
+        background-color: transparent !important;
+    }
+
+    .navbar-brand {
+        background-color: #fff;
+        margin-top: -20px;
+        padding-top: 20px;
+
+        img {
+            max-height: 300px;
+        }
+    }
+
+    .navbar-light {
+        .navbar-nav {
+            .nav-link {
+                color: #ffffff;
+                font-weight: 600;
+
+                &.active {
+                    color: #ffffff !important;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+// Header
+
+header {
+    background-image: url(../images/new/hero-image.jpg);
+    background-size: cover;
+    padding: 266px 0px 223px 0px;
+    margin-top: -130px;
+
+    h1,
+    p {
+        color: #ffffff;
+    }
+
+    h1 {
+        font-family: 'Ibarra Real Nova', serif;
+        font-weight: bold;
+        font-size: 60px;
+    }
+
+    p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: lighter;
+        font-size: 22px;
+    }
+
+    .btn-get-started {
+        background-color: #FFB500;
+        color: #ffffff;
+        font-size: 22px;
+        padding: 6px 23px;
+        margin-top: 20px;
+        transition: .5s;
+
+        &:hover {
+            background-color: rgb(255, 207, 84);
+
+        }
+    }
+
+}
+
+// Info
+
+.section-info {
+    padding-top: 200px;
+    padding-bottom: 220px;
+    background-color: #F9FAFB;
+
+    h2 {
+        font-family: 'Ibarra Real Nova', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    h3 {
+        font-family: 'Ibarra Real Nova', serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 30px;
+        color: #ACBBD2;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 768px) {
+    .section-info {
+        h2 {
+            margin-top: 50px;
+        }
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .section-info {
+        img {
+            margin: auto;
+        }
+    }
+}
+
+// Statistics
+.section-statistics {
+
+    h2 {
+        font-family: 'Ibarra Real Nova', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 30px;
+        color: #ACBBD2;
+    }
+
+    .statistics {
+        h3 {
+            font-family: 'Ibarra Real Nova', serif;
+            font-weight: bold;
+            font-size: 28px;
+            color: #FFB500;
+        }
+
+        h4 {
+            font-family: 'Ibarra Real Nova', serif;
+            font-weight: bold;
+            color: #1E55A9;
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .section-statistics {
+        img {
+            max-width: 340px;
+            margin-top: 60px 0px 0px;
+
+        }
+    }
+}
+
+.section-popular-header {
+    margin-top: 160px;
+    margin-bottom: 20px;
+
+    h2,
+    p {
+        color: #1E55A9;
+    }
+
+    h2 {
+        font-family: 'Ibarra Real Nova', serif;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: lighter;
+    }
+}
+
+// Popular Tours Content
+.section-popular-content {
+    .section-popular-travel {
+        a {
+            text-decoration: none;
+        }
+
+        .card-travel {
+            min-height: 380px;
+            background-color: #ddd;
+            padding: 30px 0px;
+            background-size: cover;
+            margin-bottom: 20px;
+            border-radius: 10px;
+
+            &:hover {
+                .btn-travel-details {
+                    background-color: #FFB500;
+                    color: #fff;
+                    padding: 0px 0px 0px 10px;
+                    width: 100px;
+                    float: right;
+                    border-radius: 10px 0px 0px 10px;
+                }
+            }
+        }
+
+        .travel-location {
+            color: #ffffff;
+            font-size: 26px;
+            font-weight: 600;
+            padding-left: 20px;
+        }
+
+        .btn-travel-details {
+            background-color: #222;
+            color: #fff;
+            padding: 0px 0px 0px 10px;
+            width: 70px;
+            float: right;
+            border-radius: 10px 0px 0px 10px;
+            transition: 0.5s;
+        }
+    }
+}
+
+// Tour Destination
+.section-tour-destination-header {
+    margin-top: 170px;
+
+    h2,
+    p {
+        color: #1E55A9;
+    }
+
+    h2 {
+        font-family: 'Ibarra Real Nova', serif;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: lighter;
+    }
+}
+
+.section-tour-destination-content {
+    .card-tour-destination {
+        min-height: 300px;
+        margin-top: 20px;
+
+        img {
+            background-position: center center;
+
+        }
+
+        .card-body {
+            .btn-price {
+                margin-top: -70px;
+                border-radius: 50px;
+            }
+
+            .card-title {
+                color: #FFB500 !important;
+                font-weight: 600;
+            }
+
+            p {
+                color: #000;
+                font-weight: lighter;
+                line-height: 20px;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+// Testimonials
+.section-testimonials-header {
+    background-image: url("../images/new/bg.png");
+    min-height: 540px;
+    padding-top: 150px;
+
+    h1 {
+        font-family: "Ibarra Real Nova", serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 18px;
+    }
+}
+
+.section-testimonials-content {
+    margin-top: -240px;
+    padding-bottom: 30px;
+
+    .testimonials-carousel {
+
+        .card-testimonial {
+            .testimonials-content {
+                h5 {
+                    font-weight: lighter;
+                }
+
+                .name {
+                    font-weight: 600;
+                    float: left;
+                    margin-top: 15px;
+                }
+
+                p {
+                    margin-top: -12px;
+                    float: left;
+
+                }
+            }
+        }
+    }
+}
+
+.btn-get-started {
+    background-color: #FFB500;
+    color: #ffffff;
+
+    &:hover {
+        background-color: rgb(255, 207, 84);
+
+    }
+}
+
+.btn-need-help {
+    border: 1px solid #1E55A9;
+    color: #1E55A9;
+
+    &:hover {
+        background-color: #1E55A9;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+}
+
+
+.section-footer {
+    h5 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 22px;
+        font-weight: lighter;
+    }
+}
